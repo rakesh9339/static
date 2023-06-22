@@ -12,9 +12,7 @@ for i in range (1,10):
 xn=xo-f(xo)/f1(xo)
 xo=xn
 print ("The approximate root using Newton-Raphson method is %.4f"%xn)
-Output:
-Enter the initial approximation: 1
-The approximate root using Newton-Raphson method is 1.5214
+
 ```
 Solve the system of equations 𝟒𝒙 + 𝒚 + 𝒛 = 𝟏; 𝒙 + 𝟑𝒚 + 𝒛 = 𝟐; 𝒙 + 𝒚 + 𝟓𝒛 = 𝟑, using
 Gauss-Seidel method.
@@ -30,8 +28,7 @@ y0=y
 z=1/5*(3-x0-y0)
 z0=z
 print ("The approximate solution of x = %.4f, y= %.4f, z=%.4f"%(x, y,z))
-Output:
-The approximate solution of x = 0.0000, y= 0.5000, z=0.5000
+
 ```
 
 
